@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Travel Website</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- Link Swiper's CSS -->
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">Travel</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#places">Places</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </header>
+    <!-- Home -->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide container">
+                <img src="img/home1.jpg" alt="">
+                <div class="home-text">
+                    <span>Discover now</span>
+                    <h1>Explore the <br>Beautiful Beach <br>Of Maldives</h1>
+                    <a href="#" class="btn">Explore</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide container">
+                <img src="img/home2.jpg" alt="">
+                <div class="home-text">
+                    <span>Discover now</span>
+                    <h1>Explore the <br>Beautiful Beach <br>Of Bali</h1>
+                    <a href="#" class="btn">Explore</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide container">
+                <img src="img/home3.jpg" alt="">
+                <div class="home-text">
+                    <span>Discover now</span>
+                    <h1>Explore the <br>Beautiful Beach <br>Of Hawaii</h1>
+                    <a href="#" class="btn">Explore</a>
+                </div>
+
+            </div>
+            
+          </div>
+          <div class="swiper-pagination"></div>
+
+    </section>
+    <!-- Places -->
+    <section class="places" id="places">
+        <div class="heading">
+            <h1>Find the most <br>attracive places</h1>
+        </div>
+        <div class="places-container">
+            <div class="box">
+                <div class="place-img">
+                    <img src="img/places1.jpg" alt="">
+                </div>
+                <div class="place-text">
+                    <h2>Hawaii</h2>
+                </div>
+                <i class='bx bx-right-arrow-alt place-icon'></i>
+            </div>
+
+            <div class="box">
+                <div class="place-img">
+                    <img src="img/places2.jpg" alt="">
+                </div>
+                <div class="place-text">
+                    <h2>Maldives</h2>
+                </div>
+                <i class='bx bx-right-arrow-alt place-icon'></i>
+            </div>
+
+            <div class="box">
+                <div class="place-img">
+                    <img src="img/places3.jpg" alt="">
+                </div>
+                <div class="place-text">
+                    <h2>Bali</h2>
+                </div>
+                <i class='bx bx-right-arrow-alt place-icon'></i>
+            </div>
+        </div>
+    </section>
+    <!-- Video -->
+    <section class="videos" id="videos">
+        <div class="heading">
+            <h1>Watch the most <br>attracive places</h1>
+        </div>
+        <div class="video-container">
+            <video src="video/video.mp4" muted autoplay loop></video>
+        </div>
+    </section>
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="about-text">
+            <h1>We are largest trip <br>organizer here</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Maxime quibusdam facilis qui? Obcaecati belt <br> quisquam expedita, placeat atque fuga velit sunt.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="about-img">
+            <img src="img/about.jpg" alt="">
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-box">
+            <h2>Travel</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis numquam, molestias velit nemo dolorem dolores!</p>
+
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-tiktok' ></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Servics</h3>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">FAQ</a></li>
+        </div>
+        <div class="footer-box">
+            <h3>Offices</h3>
+            <li><a href="#">Pakistan</a></li>
+            <li><a href="#">Japan</a></li>
+            <li><a href="#">United States</a></li>
+            <li><a href="#">Italy</a></li>
+        </div>
+        <div class="footer-box">
+            <h3>Contact Us</h3>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Our Blog</a></li>
+            <li><a href="#">Customers</a></li>
+        </div>
+    </section>
+    <!-- Copyright -->
+    <div class="copyright">
+    <p>&#169; CarpoolVenom All Right Reserved.</p>
+</div>
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Custom JS  -->
+    <script src="main.js"></script>
+
+</body>
+</html>
